@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit:300,400,500&display=swap&subset=thai");
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.bg {
+  &-secondary {
+    .slick-dots {
+      li {
+        button::before {
+          border-color: white;
+        }
+
+        &.slick-active {
+          button::before {
+            background-color: white;
+          }
+        }
+      }
+    }
+  }
+
+  &-gray {
+    background-color: #eee;
+  }
+}
+
+.btn {
+  &-orange {
+    background: $orange;
+    color: white;
+    &:hover,
+    &:focus,
+    &.active {
+      background: lighten($orange, 5%);
+      color: white;
+    }
+  }
+}
+
+.form-control {
+  font-weight: 300;
+  color: $light;
+
+  &::placeholder {
+    color: $light;
+    font-weight: 300;
+  }
+
+  &:hover,
+  &:focus,
+  &.active {
+    color: $dark;
+  }
+}
+
+.nav-pills {
+  .nav-link {
+    @extend .d-flex, .align-items-center, .justify-content-center;
+
+    background-color: $orange;
+    border-radius: 14px;
+    color: white;
+    font-size: $font-normal;
+    font-weight: 600;
+    margin: 0 4px;
+    width: 60px;
+    height: 60px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &.active {
+      background-color: $dark;
+    }
+  }
+}
+
+.navbar {
+  &-toggler {
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  &-brand {
+    img {
+      height: 36px;
+    }
+  }
+
+  &-collapse {
+    .nav-link {
+      color: white;
+    }
+  }
+  &-scroll {
+    flex: 1;
+    justify-content: space-between;
+
+    .nav-item {
+      flex: 1;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      color: $white;
+      font-size: $font-md;
+      height: 100%;
+      text-align: center;
+      padding: 0.5rem;
+
+      &:hover,
+      &:focus,
+      &.active {
+        background-color: $primary;
+      }
+    }
+
+    .icon-wrap {
+      height: 40px;
+      max-height: 40px;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.main-content {
+  margin-top: -95px;
+
+  @media (min-width: 768px) {
+    margin-top: -85px;
+  }
+
+  .section {
+    padding-top: 95px;
+    margin-bottom: -95px;
+
+    @media (min-width: 768px) {
+      padding-top: 85px;
+      margin-bottom: -85px;
+    }
+
+    &-title {
+      color: $dark;
+      font-size: $font-xl;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    &-content {
+      padding: 1.5rem 0;
+    }
+
+    &-map {
+      iframe {
+        margin-bottom: -0.625rem;
+      }
+    }
+  }
+
+  .icon {
+    margin: 1rem;
+  }
+
+  .content {
+    .title {
+      font-size: $font-normal;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .description {
+      font-size: $font-md;
+      font-weight: normal;
+    }
+  }
+}
+
+.item {
+  text-align: center;
+
+  .title {
+    font-size: $font-normal;
+    margin-bottom: 1rem;
+  }
+
+  .thumbnail {
+    @extend .d-flex, .justify-content-center;
+  }
+}
+
+.slick {
+  &-slider {
+    margin-bottom: 0 !important;
+  }
+
+  &-dots {
+    position: relative;
+    bottom: 0;
+    margin: 0.5rem auto 0 auto;
+
+    li {
+      margin: 0 3px;
+      button::before {
+        content: " ";
+        width: 11px;
+        height: 11px;
+        border: 1px solid $dark;
+        border-radius: 50%;
+      }
+
+      &.slick-active {
+        button::before {
+          background-color: $dark;
+        }
+      }
+    }
+  }
+}
+
+.back-to-top {
+  @extend .d-flex, .align-items-center, .justify-content-center;
+
+  background: rgba($orange, 0.85);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 0.25rem;
+
+  .icon {
+    color: white;
+    font-size: $font-lg;
+  }
+
+  &:hover,
+  &:focus,
+  &.active {
+    background: $orange;
+  }
+}

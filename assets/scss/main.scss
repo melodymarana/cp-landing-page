@@ -1,0 +1,9 @@
+@import '_variables.scss';
+
+//bootstrap
+@import '../vendor/bootstrap/scss/bootstrap.scss';
+//slick
+@import '../vendor/slick/slick.scss';
+@import '../vendor/slick/slick-theme.scss';
+//custom theme
+@import '_theme.scss';

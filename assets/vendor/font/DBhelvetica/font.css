@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'DB Helvethaica X 45 Li';
+    src: url('DBHelvethaicaX-45Li.eot');
+    src: url('DBHelvethaicaX-45Li.eot?#iefix') format('embedded-opentype'),
+        url('DBHelvethaicaX-45Li.woff2') format('woff2'),
+        url('DBHelvethaicaX-45Li.woff') format('woff'),
+        url('DBHelvethaicaX-45Li.ttf') format('truetype'),
+        url('DBHelvethaicaX-45Li.svg#DBHelvethaicaX-45Li') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB Helvethaica X 75 Bd';
+    src: url('DBHelvethaicaX-75Bd.eot');
+    src: url('DBHelvethaicaX-75Bd.eot?#iefix') format('embedded-opentype'),
+        url('DBHelvethaicaX-75Bd.woff2') format('woff2'),
+        url('DBHelvethaicaX-75Bd.woff') format('woff'),
+        url('DBHelvethaicaX-75Bd.ttf') format('truetype'),
+        url('DBHelvethaicaX-75Bd.svg#DBHelvethaicaX-75Bd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB Helvethaica X 55';
+    src: url('DBHelvethaicaX-55Regular.eot');
+    src: url('DBHelvethaicaX-55Regular.eot?#iefix') format('embedded-opentype'),
+        url('DBHelvethaicaX-55Regular.woff2') format('woff2'),
+        url('DBHelvethaicaX-55Regular.woff') format('woff'),
+        url('DBHelvethaicaX-55Regular.ttf') format('truetype'),
+        url('DBHelvethaicaX-55Regular.svg#DBHelvethaicaX-55Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB Helvethaica X 75 Bd';
+    src: url('DBHelvethaicaX-75Bd_1.eot');
+    src: url('DBHelvethaicaX-75Bd_1.eot?#iefix') format('embedded-opentype'),
+        url('DBHelvethaicaX-75Bd_1.woff2') format('woff2'),
+        url('DBHelvethaicaX-75Bd_1.woff') format('woff'),
+        url('DBHelvethaicaX-75Bd_1.ttf') format('truetype'),
+        url('DBHelvethaicaX-75Bd_1.svg#DBHelvethaicaX-75Bd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB Helvethaica X 65 Med';
+    src: url('DBHelvethaicaX-65Med.eot');
+    src: url('DBHelvethaicaX-65Med.eot?#iefix') format('embedded-opentype'),
+        url('DBHelvethaicaX-65Med.woff2') format('woff2'),
+        url('DBHelvethaicaX-65Med.woff') format('woff'),
+        url('DBHelvethaicaX-65Med.ttf') format('truetype'),
+        url('DBHelvethaicaX-65Med.svg#DBHelvethaicaX-65Med') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB Helvethaica X 45 Li';
+    src: url('DBHelvethaicaX-45Li_1.eot');
+    src: url('DBHelvethaicaX-45Li_1.eot?#iefix') format('embedded-opentype'),
+        url('DBHelvethaicaX-45Li_1.woff2') format('woff2'),
+        url('DBHelvethaicaX-45Li_1.woff') format('woff'),
+        url('DBHelvethaicaX-45Li_1.ttf') format('truetype'),
+        url('DBHelvethaicaX-45Li_1.svg#DBHelvethaicaX-45Li') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB Helvethaica X 65 Med';
+    src: url('DBHelvethaicaX-65Med_1.eot');
+    src: url('DBHelvethaicaX-65Med_1.eot?#iefix') format('embedded-opentype'),
+        url('DBHelvethaicaX-65Med_1.woff2') format('woff2'),
+        url('DBHelvethaicaX-65Med_1.woff') format('woff'),
+        url('DBHelvethaicaX-65Med_1.ttf') format('truetype'),
+        url('DBHelvethaicaX-65Med_1.svg#DBHelvethaicaX-65Med') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
